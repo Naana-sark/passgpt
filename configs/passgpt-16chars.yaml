@@ -19,7 +19,7 @@ training_args:
     save_total_limit: 1
     num_train_epochs: 3
     overwrite_output_dir: true
-    fp16: true
+    fp16: false
     output_dir: '/content/output' # Where to store your checkpoints
     report_to: "none"
     save_steps: 50000
